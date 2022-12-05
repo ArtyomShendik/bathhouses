@@ -1,6 +1,6 @@
 ﻿<?php
 
-	$sendto   = "valentine.webdev@gmail.com"; // почта, на которую будет приходить письмо
+	$sendto   = ""; // почта, на которую будет приходить письмо
 	$emptyField = 'Поле не заполнено';
 	
 	$usersubj = $_POST['subject']; // сохраняем в переменную данные полученные из поля c телефонным номеро
@@ -9,7 +9,7 @@
 	
 
 	// Формирование заголовка письма
-	$subject  = "PROJECTS.WEBCLICK - Отделка бань - Заявка с сайта";
+	$subject  = "Bathhouses - Отделка бань - Заявка с сайта";
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html;charset=utf-8 \r\n";
 
