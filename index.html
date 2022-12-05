@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Профессиональная отделка бань | парилок, моечных, комнат отдыха</title>
+	<meta name="description" content="Опыт более 5 лет. Только лучшие материалы по цене прямого поставщика. Без посредников. Высокая скорость работ. Удобства: Доставка материалов, Доставка печей, Консультация инженера. Индивидуальный дизайн. Долговечное качество. Выполнение точно в сроки. Выезд на замеры с образцами материалов. Монтаж от 1 до 7 дней.">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico?v=2">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png?v=2">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<style>
+		body {
+			overflow: hidden;
+		}
+
+		.lds-facebook {
+			display: inline-block;
+			position: relative;
+			width: 64px;
+			height: 64px;
+		}
+
+		.lds-facebook div {
+			display: inline-block;
+			position: absolute;
+			left: 6px;
+			width: 13px;
+			background: #fff;
+			animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+		}
+
+		.lds-facebook div:nth-child(1) {
+			left: 6px;
+			animation-delay: -0.24s;
+		}
+
+		.lds-facebook div:nth-child(2) {
+			left: 26px;
+			animation-delay: -0.12s;
+		}
+
+		.lds-facebook div:nth-child(3) {
+			left: 45px;
+			animation-delay: 0;
+		}
+
+		@keyframes lds-facebook {
+			0% {
+				top: 6px;
+				height: 51px;
+			}
+
+			50%,
+			100% {
+				top: 19px;
+				height: 26px;
+			}
+		}
+
+		.loader {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			z-index: 999999;
+			background-color: #121212;
+		}
+
+		.loader-wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+
+	<div class="loader">
+		<div class="loader-wrapper">
+			<div class="lds-facebook">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- header -->
+	<header class="header">
+		<div class="container">
+			<div class="header-content df aic jcsb">
+				<div class="header-logo">
+					<img src="img/logo2.svg" alt="">
+				</div>
+				<div class="header-contact">
+					<a href="tel:+375298045386">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+						 y="0px" viewBox="0 0 578.106 578.106" style="enable-background:new 0 0 578.106 578.106;" xml:space="preserve"
+						 width="512px" height="512px">
+							<g>
+								<path d="M577.83,456.128c1.225,9.385-1.635,17.545-8.568,24.48l-81.396,80.781    c-3.672,4.08-8.465,7.551-14.381,10.404c-5.916,2.857-11.729,4.693-17.439,5.508c-0.408,0-1.635,0.105-3.676,0.309    c-2.037,0.203-4.689,0.307-7.953,0.307c-7.754,0-20.301-1.326-37.641-3.979s-38.555-9.182-63.645-19.584    c-25.096-10.404-53.553-26.012-85.376-46.818c-31.823-20.805-65.688-49.367-101.592-85.68    c-28.56-28.152-52.224-55.08-70.992-80.783c-18.768-25.705-33.864-49.471-45.288-71.299    c-11.425-21.828-19.993-41.616-25.705-59.364S4.59,177.362,2.55,164.51s-2.856-22.95-2.448-30.294    c0.408-7.344,0.612-11.424,0.612-12.24c0.816-5.712,2.652-11.526,5.508-17.442s6.324-10.71,10.404-14.382L98.022,8.756    c5.712-5.712,12.24-8.568,19.584-8.568c5.304,0,9.996,1.53,14.076,4.59s7.548,6.834,10.404,11.322l65.484,124.236    c3.672,6.528,4.692,13.668,3.06,21.42c-1.632,7.752-5.1,14.28-10.404,19.584l-29.988,29.988c-0.816,0.816-1.53,2.142-2.142,3.978    s-0.918,3.366-0.918,4.59c1.632,8.568,5.304,18.36,11.016,29.376c4.896,9.792,12.444,21.726,22.644,35.802    s24.684,30.293,43.452,48.653c18.36,18.77,34.68,33.354,48.96,43.76c14.277,10.4,26.215,18.053,35.803,22.949    c9.588,4.896,16.932,7.854,22.031,8.871l7.648,1.531c0.816,0,2.145-0.307,3.979-0.918c1.836-0.613,3.162-1.326,3.979-2.143    l34.883-35.496c7.348-6.527,15.912-9.791,25.705-9.791c6.938,0,12.443,1.223,16.523,3.672h0.611l118.115,69.768    C571.098,441.238,576.197,447.968,577.83,456.128z" />
+							</g>
+						</svg>
+						+375 (29)
+						<span class="bold">804-53-86</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- block1 -->
+
+	<section class="block1">
+		<div class="block1-bg-slider">
+			<!-- <span style="background-image: url(img/block1/block1-bg.jpg); background-repeat: no-repeat; background-size: cover;background-position: center center;"></span> -->
+			<!-- <span style="background-image: url(img/block1/block1-bg.jpg); background-repeat: no-repeat; background-size: cover;background-position: center center;"></span> -->
+			<!-- <span style="background-image: url(img/block1/block1-bg.jpg); background-repeat: no-repeat; background-size: cover;background-position: center center;"></span> -->
+			<!-- <span style="background-image: url(img/block1/block1-bg.jpg); background-repeat: no-repeat; background-size: cover;background-position: center center;"></span> -->
+		</div>
+		<div class="container block1-container">
+			<div class="block1-slider">
+				<div class="block1-slider-item">
+					<h1 class="block1-slider-heading">Отделка бань "Под ключ"</h1>
+					<div class="block1-slider-subheading">Профессиональная отделка всех помещений бани.
+						<br>Используем только качественные материалы от прямого поставщика</div>
+					<button class="btn block1-slider-btn modal-btn" data-subject="Отделка бань - 1 экран">Получить консультацию</button>
+				</div>
+				<div class="block1-slider-item">
+					<h2 class="block1-slider-heading">Отделка парилок</h2>
+					<div class="block1-slider-subheading">Профессиональная отделка парилок
+						<br>Используем только качественные материалы от прямого поставщика</div>
+					<button class="btn block1-slider-btn modal-btn" data-subject="Отделка парилок - 1 экран">Получить консультацию</button>
+				</div>
+				<div class="block1-slider-item">
+					<h2 class="block1-slider-heading">Отделка моечных</h2>
+					<div class="block1-slider-subheading">Профессиональная отделка моечных комнат
+						<br>Используем только качественные материалы от прямого поставщика</div>
+					<button class="btn block1-slider-btn modal-btn" data-subject="Отделка моечных - 1 экран">Получить консультацию</button>
+				</div>
+				<div class="block1-slider-item">
+					<h2 class="block1-slider-heading">Отделка комнаты отдыха</h2>
+					<div class="block1-slider-subheading">Профессиональная отделка комнат отдыха
+						<br>Используем только качественные материалы от прямого поставщика</div>
+					<button class="btn block1-slider-btn modal-btn" data-subject="Отделка моечных - 1 экран">Получить консультацию</button>
+				</div>
+			</div>
+		</div>
+		<div class="block1-slider-controls">
+			<div class="container">
+				<button class="block1-slider-arrow block1-slider-arrow-left" id="block1-slider-arrow-left">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+					 y="0px" viewBox="0 0 490.4 490.4" style="enable-background:new 0 0 490.4 490.4;" xml:space="preserve" width="512px"
+					 height="512px">
+						<g>
+							<path d="M245.2,490.4c135.2,0,245.2-110,245.2-245.2S380.4,0,245.2,0S0,110,0,245.2C0,380.4,110,490.4,245.2,490.4z M245.2,24.5    c121.7,0,220.7,99,220.7,220.7s-99,220.7-220.7,220.7s-220.7-99-220.7-220.7S123.5,24.5,245.2,24.5z"
+							 fill="#FFFFFF" />
+							<path d="M198.9,322.8c2.4,2.4,5.5,3.6,8.7,3.6s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-48-48h183.4c6.8,0,12.3-5.5,12.3-12.3    s-5.5-12.3-12.3-12.3H168.3l48-48c4.8-4.8,4.8-12.5,0-17.3s-12.5-4.8-17.3,0l-68.9,68.9c-4.8,4.8-4.8,12.5,0,17.3L198.9,322.8z"
+							 fill="#FFFFFF" />
+						</g>
+					</svg>
+				</button>
+				<button class="block1-slider-arrow block1-slider-arrow-right" id="block1-slider-arrow-right">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+					 y="0px" viewBox="0 0 490.4 490.4" style="enable-background:new 0 0 490.4 490.4;" xml:space="preserve" width="512px"
+					 height="512px">
+						<g>
+							<path d="M245.2,490.4c135.2,0,245.2-110,245.2-245.2S380.4,0,245.2,0S0,110,0,245.2S110,490.4,245.2,490.4z M245.2,24.5    c121.7,0,220.7,99,220.7,220.7s-99,220.7-220.7,220.7s-220.7-99-220.7-220.7S123.5,24.5,245.2,24.5z"
+							 fill="#FFFFFF" />
+							<path d="M138.7,257.5h183.4l-48,48c-4.8,4.8-4.8,12.5,0,17.3c2.4,2.4,5.5,3.6,8.7,3.6s6.3-1.2,8.7-3.6l68.9-68.9    c4.8-4.8,4.8-12.5,0-17.3l-68.9-68.9c-4.8-4.8-12.5-4.8-17.3,0s-4.8,12.5,0,17.3l48,48H138.7c-6.8,0-12.3,5.5-12.3,12.3    C126.4,252.1,131.9,257.5,138.7,257.5z"
+							 fill="#FFFFFF" />
+						</g>
+					</svg>
+				</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- block2 -->
+	<section class="block2">
+		<div class="block2-accordeon">
+			<div class="block2-accordeon-item block2-accordeon-item-1">
+				<h2 class="block2-accordeon-item-heading">Отделка бани
+					<br>под ключ</h2>
+				<div class="block2-accordeon-item-hidden">
+					<div class="block2-accordeon-item-price">от 1200 рублей</div>
+					<button class="btn block2-accordeon-item-btn modal-btn" data-subject="Отделка бани под ключ - блок видов работ">Узнать
+						подробнее</button>
+				</div>
+			</div>
+			<div class="block2-accordeon-item block2-accordeon-item-2">
+				<h2 class="block2-accordeon-item-heading">Отделка
+					<br>парилки</h2>
+				<div class="block2-accordeon-item-hidden">
+					<div class="block2-accordeon-item-price">от 600 рублей</div>
+					<button class="btn block2-accordeon-item-btn modal-btn" data-subject="Отделка парилки - блок видов работ">Узнать
+						подробнее</button>
+				</div>
+			</div>
+			<div class="block2-accordeon-item block2-accordeon-item-3">
+				<h2 class="block2-accordeon-item-heading">Отделка
+					<br>моечной</h2>
+				<div class="block2-accordeon-item-hidden">
+					<div class="block2-accordeon-item-price">от 300 рублей</div>
+					<button class="btn block2-accordeon-item-btn modal-btn" data-subject="Отделка моечной - блок видов работ">Узнать
+						подробнее</button>
+				</div>
+			</div>
+			<div class="block2-accordeon-item block2-accordeon-item-4">
+				<h2 class="block2-accordeon-item-heading">Отделка
+					<br>комнаты отдых</h2>
+				<div class="block2-accordeon-item-hidden">
+					<div class="block2-accordeon-item-price">от 300 рублей</div>
+					<button class="btn block2-accordeon-item-btn modal-btn" data-subject="Отделка комнаты отдых - блок видов работ">Узнать
+						подробнее</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- block3 -->
+	<section class="block3">
+		<img src="img/block3/block3-list-top.png" alt="" class="block3-leaf block3-leaf-top">
+		<img src="img/block3/block3-list-bottom.png" alt="" class="block3-leaf block3-leaf-bottom">
+		<div class="container">
+			<h2 class="section-heading block3-heading">Почему выбирают нас</h2>
+			<div class="block3-items">
+				<div class="block3-item">
+					<div class="block3-item-icon-wrapper">
+						<img src="img/block3/block3-1.png" alt="">
+					</div>
+					<div class="block3-items-text">
+						<span class="bold">Бесплатный</span> выезд
+						<br>замерщика</div>
+				</div>
+				<div class="block3-item">
+					<div class="block3-item-icon-wrapper">
+						<img src="img/block3/block3-2.png" alt="">
+					</div>
+					<div class="block3-items-text">Опыт
+						<span class="bold">более
+							<br>5 лет</span>
+					</div>
+				</div>
+				<div class="block3-item">
+					<div class="block3-item-icon-wrapper">
+						<img src="img/block3/block3-3.png" alt="">
+					</div>
+					<div class="block3-items-text">Цена ниже рынка
+						<br>
+						<span class="bold">от 600 руб.</span>
+					</div>
+				</div>
+				<div class="block3-item">
+					<div class="block3-item-icon-wrapper">
+						<img src="img/block3/block3-4.png" alt="">
+					</div>
+					<div class="block3-items-text">
+						<span class="bold">Профессиональный</span>
+						<br>подбор материалов
+						<br>и оборудования</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- block4 -->
+	<section class="block4">
+		<div class="container">
+			<h2 class="section-heading block4-heading">ключевые этапы оделки парилки</h2>
+		</div>
+		<div class="block4-items">
+			<div class="block4-item">
+				<div class="block4-item-content-wrapper">
+					<div class="block4-item-content">
+						<h3>Разработка проекта</h3>
+						<div class="block4-item-text">На этапе проектирования определяются важные особенности будующей парилки, а именно:</div>
+						<ul class="block4-item-list">
+							<li>расположение печи;</li>
+							<li>наличие вентиляции;</li>
+							<li>расположение полок и их отдаленность от печи;</li>
+							<li>планируемая вместительность;</li>
+							<li>материал отделки.</li>
+						</ul>
+					</div>
+					<div class="block4-item-number">01</div>
+				</div>
+				<div class="block4-item-image">
+					<img src="img/block4/block4-1.jpg" alt="">
+				</div>
+			</div>
+			<div class="block4-item block4-item-reverse">
+				<div class="block4-item-content-wrapper">
+					<div class="block4-item-content">
+						<h3>Утепление парилки</h3>
+						<div class="block4-item-text">Утепление потолка и стен позволяет удерживать тепло дольше, сократить время нагрева
+							парилки и количество потребляемого
+							топлива.
+						</div>
+					</div>
+					<div class="block4-item-number">02</div>
+				</div>
+				<div class="block4-item-image">
+					<img src="img/block4/block4-2.jpg" alt="">
+				</div>
+			</div>
+			<div class="block4-item">
+				<div class="block4-item-content-wrapper">
+					<div class="block4-item-content">
+						<h3>Отделка парилки</h3>
+						<div class="block4-item-text">Для отделки потолка и стен парилки предпочтительнее испоьзовать липу и ольху. Для
+							облицовки пола обычно используется
+							натуральный камнь, керамогранитная плитка или лиственные породы деревьев </div>
+					</div>
+					<div class="block4-item-number">03</div>
+				</div>
+				<div class="block4-item-image">
+					<img src="img/block4/block4-3.jpg" alt="">
+				</div>
+			</div>
+			<div class="block4-item block4-item-reverse">
+				<div class="block4-item-content-wrapper">
+					<div class="block4-item-content">
+						<h3>Монтирование печи</h3>
+						<div class="block4-item-text">Наиболее часто используемые типы печей:</div>
+						<ul class="block4-item-list">
+							<li>кирпичные;</li>
+							<li>каменные;</li>
+							<li>металлические;</li>
+							<li>комбинированные;</li>
+							<li>электрическими.</li>
+						</ul>
+						<div class="block4-item-text">В зависимости от выбранного типа печи, производятся соответствующие
+							подготовительные и монтажные работы.</div>
+					</div>
+					<div class="block4-item-number">04</div>
+				</div>
+				<div class="block4-item-image">
+					<img src="img/block4/block4-4.jpg" alt="">
+				</div>
+			</div>
+			<div class="block4-item">
+				<div class="block4-item-content-wrapper">
+					<div class="block4-item-content">
+						<h3>Установка полок и двери</h3>
+						<div class="block4-item-text">На заключительном этапе отделки собираются и устанавливаются полки парилки,
+							устанавливается дверь. Далее проводится
+							заключительная проверка, после которой парилкой можно пользоваться .</div>
+					</div>
+					<div class="block4-item-number">05</div>
+				</div>
+				<div class="block4-item-image">
+					<img src="img/block4/block4-5.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="block4-btn-wrapper">
+			<button class="btn block4-btn modal-btn" data-subject="Получить консультацию - блок этапов проведения работ">Получить
+				консультацию</button>
+		</div>
+		<img src="img/block4/block4-list-1.png" alt="" class="block4-leaf block4-leaf-left">
+		<img src="img/block4/block4-list-2.png" alt="" class="block4-leaf block4-leaf-right">
+	</section>
+
+	<!-- block5 -->
+	<section class="block5">
+		<div class="container">
+			<h2 class="section-heading block5-heading">наши работы</h2>
+			<!-- <div class="block5-slider-wrapper">
+				<div class="block5-slider">
+					<div class="block5-slider-item">
+						<img src="img/block5/block5-1.jpg" alt="">
+						<div class="block5-slider-content">
+							<h3 class="block5-slider-item-heading">Отделка бани
+								<br>п.Тарасово</h3>
+							<button class="btn block5-slider-item-btn" data-work="1">Подробнее</button>
+						</div>
+					</div>
+					<div class="block5-slider-item">
+						<img src="img/block5/block5-2.jpg" alt="">
+						<div class="block5-slider-content">
+							<h3 class="block5-slider-item-heading">Отделка бани
+								<br>п.Тарасово2</h3>
+							<button class="btn block5-slider-item-btn" data-work="2">Подробнее</button>
+						</div>
+					</div>
+					<div class="block5-slider-item">
+						<img src="img/block5/block5-3.jpg" alt="">
+						<div class="block5-slider-content">
+							<h3 class="block5-slider-item-heading">Отделка бани
+								<br>п.Тарасово</h3>
+							<button class="btn block5-slider-item-btn" data-work="1">Подробнее</button>
+						</div>
+					</div>
+					<div class="block5-slider-item">
+						<img src="img/block5/block5-1.jpg" alt="">
+						<div class="block5-slider-content">
+							<h3 class="block5-slider-item-heading">Отделка бани
+								<br>п.Тарасово2</h3>
+							<button class="btn block5-slider-item-btn" data-work="2">Подробнее</button>
+						</div>
+					</div>
+					<div class="block5-slider-item">
+						<img src="img/block5/block5-3.jpg" alt="">
+						<div class="block5-slider-content">
+							<h3 class="block5-slider-item-heading">Отделка бани
+								<br>п.Тарасово</h3>
+							<button class="btn block5-slider-item-btn" data-work="1">Подробнее</button>
+						</div>
+					</div>
+				</div>
+				<div class="block5-slider-dots-wrapper" id="block5-slider-dots-wrapper"></div>
+				<button class="block5-slider-arrow block5-slider-arrow-left" id="block5-slider-arrow-left">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129"
+					 enable-background="new 0 0 129 129" width="512px" height="512px">
+						<g>
+							<path d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z"
+							 fill="#FFFFFF" />
+						</g>
+					</svg>
+				</button>
+				<button class="block5-slider-arrow block5-slider-arrow-right" id="block5-slider-arrow-right">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129"
+					 enable-background="new 0 0 129 129" width="512px" height="512px">
+						<g>
+							<path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"
+							 fill="#FFFFFF" />
+						</g>
+					</svg>
+				</button>
+			</div> -->
+
+			<div class="block5-slider-simple-wrapper">
+				<div class="block5-slider-simple">
+					<div class="block5-slider-simple-item">
+						<a href="img/block5/block5-1-big.jpg" class="block5-slider-simple-link">
+							<img src="img/block5/block5-1.jpg" alt="">
+							<img src="img/block5/search.svg" alt="" class="zoom">
+						</a>
+					</div>
+					<div class="block5-slider-simple-item">
+						<a href="img/block5/block5-2-big.jpg" class="block5-slider-simple-link">
+							<img src="img/block5/block5-2.jpg" alt="">
+							<img src="img/block5/search.svg" alt="" class="zoom">
+						</a>
+					</div>
+					<div class="block5-slider-simple-item">
+						<a href="img/block5/block5-3-big.jpg" class="block5-slider-simple-link">
+							<img src="img/block5/block5-3.jpg" alt="">
+							<img src="img/block5/search.svg" alt="" class="zoom">
+						</a>
+					</div>
+					<div class="block5-slider-simple-item">
+						<a href="img/block5/block5-4-big.jpg" class="block5-slider-simple-link">
+							<img src="img/block5/block5-4.jpg" alt="">
+							<img src="img/block5/search.svg" alt="" class="zoom">
+						</a>
+					</div>
+					<div class="block5-slider-simple-item">
+						<a href="img/block5/block5-5-big.jpg" class="block5-slider-simple-link">
+							<img src="img/block5/block5-5.jpg" alt="">
+							<img src="img/block5/search.svg" alt="" class="zoom">
+						</a>
+					</div>
+					<div class="block5-slider-simple-item">
+						<a href="img/block5/block5-6-big.jpg" class="block5-slider-simple-link">
+							<img src="img/block5/block5-6.jpg" alt="">
+							<img src="img/block5/search.svg" alt="" class="zoom">
+						</a>
+					</div>
+					<div class="block5-slider-simple-item">
+						<a href="img/block5/block5-7-big.jpg" class="block5-slider-simple-link">
+							<img src="img/block5/block5-7.jpg" alt="">
+							<img src="img/block5/search.svg" alt="" class="zoom">
+						</a>
+					</div>
+					<div class="block5-slider-simple-item">
+						<a href="img/block5/block5-8-big.jpg" class="block5-slider-simple-link">
+							<img src="img/block5/block5-8.jpg" alt="">
+							<img src="img/block5/search.svg" alt="" class="zoom">
+						</a>
+					</div>
+					<div class="block5-slider-simple-item">
+						<a href="img/block5/block5-9-big.jpg" class="block5-slider-simple-link">
+							<img src="img/block5/block5-9.jpg" alt="">
+							<img src="img/block5/search.svg" alt="" class="zoom">
+						</a>
+					</div>
+				</div>
+				<div class="block5-slider-simple-dots-wrapper" id="block5-slider-simple-dots-wrapper"></div>
+				<button class="block5-slider-simple-arrow block5-slider-simple-arrow-left" id="block5-slider-simple-arrow-left">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129"
+					 enable-background="new 0 0 129 129" width="512px" height="512px">
+						<g>
+							<path d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z"
+							 fill="#FFFFFF" />
+						</g>
+					</svg>
+				</button>
+				<button class="block5-slider-simple-arrow block5-slider-simple-arrow-right" id="block5-slider-simple-arrow-right">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129"
+					 enable-background="new 0 0 129 129" width="512px" height="512px">
+						<g>
+							<path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"
+							 fill="#FFFFFF" />
+						</g>
+					</svg>
+				</button>
+			</div>
+
+			<div class="block5-btn-wrapper">
+				<button class="btn block5-btn modal-btn" data-subject="Блок портфолио">Заказать отделку</button>
+			</div>
+
+		</div>
+	</section>
+<!-- 
+	<div class="block5-works-modal modal-works">
+		<button class="block5-works-close-modal">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+			 y="0px" viewBox="0 0 47.971 47.971" style="enable-background:new 0 0 47.971 47.971;" xml:space="preserve" width="512px"
+			 height="512px">
+				<g>
+					<path d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88   c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242   C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879   s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z"
+					 fill="#FFFFFF" />
+				</g>
+			</svg>
+		</button>
+		<div class="block5-work" id="block5-work-1" style="background: url(img/block5/block5-modal.jpg) no-repeat center center; background-size: cover;">
+			<div class="block5-work-content-wrapper">
+				<div class="block5-work-content">
+					<div class="block5-work-heading">Отделка бани п.Тарасово</div>
+					<div class="block5-work-text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+						абзацев более менее
+						<br> осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных </div>
+					<div class="block5-work-slider-wrapper">
+						<div class="block5-work-slider">
+							<img src="img/block5/block5-modal.jpg" alt="">
+							<img src="img/block5/block5-modal.jpg" alt="">
+							<img src="img/block5/block5-modal.jpg" alt="">
+							<img src="img/block5/block5-modal.jpg" alt="">
+						</div>
+						<div class="block5-work-slider-dots-wrapper"></div>
+						<button class="block5-work-slider-arrow block5-work-slider-arrow-left">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+							 y="0px" width="512px" height="512px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+							 xml:space="preserve">
+								<g>
+									<path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.119S9.922,0.001,22.119,0.001s22.119,9.922,22.119,22.118    S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.75,1.5,22.119c0,11.368,9.25,20.618,20.619,20.618    s20.619-9.25,20.619-20.618C42.738,10.75,33.488,1.501,22.119,1.501z"
+									 fill="#FFFFFF" />
+									<path d="M24.667,29.884c-0.192,0-0.384-0.072-0.53-0.22l-7.328-7.334c-0.292-0.293-0.292-0.768,0-1.061l7.328-7.333    c0.293-0.293,0.768-0.293,1.061,0s0.293,0.768,0,1.061L18.4,21.8l6.798,6.805c0.292,0.293,0.292,0.769,0,1.061    C25.051,29.812,24.859,29.884,24.667,29.884z"
+									 fill="#FFFFFF" />
+								</g>
+							</svg>
+						</button>
+						<button class="block5-work-slider-arrow block5-work-slider-arrow-right">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+							 y="0px" width="512px" height="512px" viewBox="0 0 44.236 44.236" style="enable-background:new 0 0 44.236 44.236;"
+							 xml:space="preserve">
+								<g>
+									<path d="M22.118,44.236C9.922,44.236,0,34.314,0,22.118S9.922,0,22.118,0s22.118,9.922,22.118,22.118S34.314,44.236,22.118,44.236    z M22.118,1.5C10.75,1.5,1.5,10.749,1.5,22.118c0,11.368,9.25,20.618,20.618,20.618c11.37,0,20.618-9.25,20.618-20.618    C42.736,10.749,33.488,1.5,22.118,1.5z"
+									 fill="#FFFFFF" />
+									<path d="M19.341,29.884c-0.192,0-0.384-0.073-0.53-0.22c-0.293-0.292-0.293-0.768,0-1.061l6.796-6.804l-6.796-6.803    c-0.292-0.293-0.292-0.769,0-1.061c0.293-0.293,0.768-0.293,1.061,0l7.325,7.333c0.293,0.293,0.293,0.768,0,1.061l-7.325,7.333    C19.725,29.811,19.533,29.884,19.341,29.884z"
+									 fill="#FFFFFF" />
+								</g>
+							</svg>
+
+						</button>
+					</div>
+					<div class="block5-work-slider-btn-wrapper">
+						<button class="btn block5-work-slider-btn modal-btn" data-subject="Получить консультацию - портфолио п.Тарасово">Получить
+							консультацию</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block5-work" id="block5-work-2" style="background: url(img/block5/block5-modal.jpg) no-repeat center center; background-size: cover;">
+			<div class="block5-work-content-wrapper">
+				<div class="block5-work-content">
+					<div class="block5-work-heading">Отделка бани п.Тарасово2</div>
+					<div class="block5-work-text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+						абзацев более менее
+						<br> осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных </div>
+					<div class="block5-work-slider-wrapper">
+						<div class="block5-work-slider">
+							<img src="img/block5/block5-modal.jpg" alt="">
+							<img src="img/block5/block5-modal.jpg" alt="">
+							<img src="img/block5/block5-modal.jpg" alt="">
+							<img src="img/block5/block5-modal.jpg" alt="">
+						</div>
+						<div class="block5-work-slider-dots-wrapper"></div>
+						<button class="block5-work-slider-arrow block5-work-slider-arrow-left">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+							 y="0px" width="512px" height="512px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+							 xml:space="preserve">
+								<g>
+									<path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.119S9.922,0.001,22.119,0.001s22.119,9.922,22.119,22.118    S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.75,1.5,22.119c0,11.368,9.25,20.618,20.619,20.618    s20.619-9.25,20.619-20.618C42.738,10.75,33.488,1.501,22.119,1.501z"
+									 fill="#FFFFFF" />
+									<path d="M24.667,29.884c-0.192,0-0.384-0.072-0.53-0.22l-7.328-7.334c-0.292-0.293-0.292-0.768,0-1.061l7.328-7.333    c0.293-0.293,0.768-0.293,1.061,0s0.293,0.768,0,1.061L18.4,21.8l6.798,6.805c0.292,0.293,0.292,0.769,0,1.061    C25.051,29.812,24.859,29.884,24.667,29.884z"
+									 fill="#FFFFFF" />
+								</g>
+							</svg>
+						</button>
+						<button class="block5-work-slider-arrow block5-work-slider-arrow-right">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+							 y="0px" width="512px" height="512px" viewBox="0 0 44.236 44.236" style="enable-background:new 0 0 44.236 44.236;"
+							 xml:space="preserve">
+								<g>
+									<path d="M22.118,44.236C9.922,44.236,0,34.314,0,22.118S9.922,0,22.118,0s22.118,9.922,22.118,22.118S34.314,44.236,22.118,44.236    z M22.118,1.5C10.75,1.5,1.5,10.749,1.5,22.118c0,11.368,9.25,20.618,20.618,20.618c11.37,0,20.618-9.25,20.618-20.618    C42.736,10.749,33.488,1.5,22.118,1.5z"
+									 fill="#FFFFFF" />
+									<path d="M19.341,29.884c-0.192,0-0.384-0.073-0.53-0.22c-0.293-0.292-0.293-0.768,0-1.061l6.796-6.804l-6.796-6.803    c-0.292-0.293-0.292-0.769,0-1.061c0.293-0.293,0.768-0.293,1.061,0l7.325,7.333c0.293,0.293,0.293,0.768,0,1.061l-7.325,7.333    C19.725,29.811,19.533,29.884,19.341,29.884z"
+									 fill="#FFFFFF" />
+								</g>
+							</svg>
+
+						</button>
+					</div>
+					<div class="block5-work-slider-btn-wrapper">
+						<button class="btn block5-work-slider-btn modal-btn" data-subject="Получить консультацию - портфолио п.Тарасово">Получить
+							консультацию</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+
+	<!-- block6 -->
+	<section class="block6">
+		<div class="container">
+			<h2 class="section-heading block5-heading">Материалы и отделка</h2>
+			<div class="block6-tabs">
+				<div class="block6-tabs-nav">
+					<ul class="block6-tabs-nav-list">
+						<li>
+							<button data-tab-target="0" class="block6-tabs-nav-btn active">обшивка</button>
+						</li>
+						<li>
+							<button data-tab-target="1" class="block6-tabs-nav-btn">освещение</button>
+						</li>
+						<li>
+							<button data-tab-target="2" class="block6-tabs-nav-btn">печи</button>
+						</li>
+						<li>
+							<button data-tab-target="3" class="block6-tabs-nav-btn">вентиляция</button>
+						</li>
+						<li>
+							<button data-tab-target="4" class="block6-tabs-nav-btn">двери</button>
+						</li>
+					</ul>
+				</div>
+				<div class="block6-tabs-content">
+					<div class="block6-tabs-content-item-wrapper start">
+						<div class="block6-tabs-content-item">
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-material-1.jpg" alt="">
+									<h3>Ольха</h3>
+								</div>
+							</div>
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-material-2.jpg" alt="">
+									<h3>Липа</h3>
+								</div>
+							</div>
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-material-3.jpg" alt="">
+									<h3>Абаш</h3>
+								</div>
+							</div>
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-material-5.jpg" alt="">
+									<h3>Кедр</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block6-tabs-content-item-wrapper">
+						<div class="block6-tabs-content-item">
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-light-1.jpg" alt="">
+									<h3>Электрческое</h3>
+								</div>
+							</div>
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-light-2.jpg" alt="">
+									<h3>Естественное</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block6-tabs-content-item-wrapper">
+						<div class="block6-tabs-content-item">
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-bake-1.jpg" alt="">
+									<h3>Кирпичные</h3>
+								</div>
+							</div>
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-bake-2.jpg" alt="">
+									<h3>Каменные</h3>
+								</div>
+							</div>
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-bake-3.jpg" alt="">
+									<h3>Металические</h3>
+								</div>
+							</div>
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-bake-4.jpg" alt="">
+									<h3>Комбинированные</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block6-tabs-content-item-wrapper">
+						<div class="block6-tabs-content-item">
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-vent-1.jpg" alt="">
+									<h3>Приточная</h3>
+								</div>
+							</div>
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-vent-2.jpg" alt="">
+									<h3>Вытяжная</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block6-tabs-content-item-wrapper">
+						<div class="block6-tabs-content-item">
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-door-1.jpg" alt="">
+									<h3>Деревянные</h3>
+								</div>
+							</div>
+							<div class="block6-tabs-content-inner-item">
+								<div class="block6-tabs-content-inner-wrap">
+									<img src="img/block6/block6-door-2.jpg" alt="">
+									<h3>Стеклянные</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- block7 -->
+	<section class="block7">
+		<div class="container">
+			<div class="block7-content">
+				<div class="block7-left">
+					<h2 class="block7-heading">Остались вопросы?</h2>
+					<div class="block7-subheading">Заполните форму и мы расскажем все в деталях</div>
+					<form class="block7-form" id="block7-form">
+						<input type="hidden" name="subject" value="Контактная форма внизу страницы">
+						<input type="text" name="name" placeholder="Ваше имя" class="form-input block7-form-input">
+						<input type="text" name="tel" placeholder="Номер телефона" class="form-input block7-form-input" required>
+						<button class="btn block7-form-btn" type="submit" form="block7-form">Отправить</button>
+					</form>
+				</div>
+				<div class="block7-right">
+					<img src="img/block7/block7-img.png" class="block7-image" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-left">
+					<div>ИП Балашевич.Д.Л.</div>
+					<div>УНП 192231347</div>
+				</div>
+				<div class="footer-right">
+					<div class="footer-right-contacts">
+						<a href="tel:+375298045386" class="footer-link">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+							 y="0px" viewBox="0 0 578.106 578.106" style="enable-background:new 0 0 578.106 578.106;" xml:space="preserve"
+							 width="512px" height="512px">
+								<g>
+									<path d="M577.83,456.128c1.225,9.385-1.635,17.545-8.568,24.48l-81.396,80.781    c-3.672,4.08-8.465,7.551-14.381,10.404c-5.916,2.857-11.729,4.693-17.439,5.508c-0.408,0-1.635,0.105-3.676,0.309    c-2.037,0.203-4.689,0.307-7.953,0.307c-7.754,0-20.301-1.326-37.641-3.979s-38.555-9.182-63.645-19.584    c-25.096-10.404-53.553-26.012-85.376-46.818c-31.823-20.805-65.688-49.367-101.592-85.68    c-28.56-28.152-52.224-55.08-70.992-80.783c-18.768-25.705-33.864-49.471-45.288-71.299    c-11.425-21.828-19.993-41.616-25.705-59.364S4.59,177.362,2.55,164.51s-2.856-22.95-2.448-30.294    c0.408-7.344,0.612-11.424,0.612-12.24c0.816-5.712,2.652-11.526,5.508-17.442s6.324-10.71,10.404-14.382L98.022,8.756    c5.712-5.712,12.24-8.568,19.584-8.568c5.304,0,9.996,1.53,14.076,4.59s7.548,6.834,10.404,11.322l65.484,124.236    c3.672,6.528,4.692,13.668,3.06,21.42c-1.632,7.752-5.1,14.28-10.404,19.584l-29.988,29.988c-0.816,0.816-1.53,2.142-2.142,3.978    s-0.918,3.366-0.918,4.59c1.632,8.568,5.304,18.36,11.016,29.376c4.896,9.792,12.444,21.726,22.644,35.802    s24.684,30.293,43.452,48.653c18.36,18.77,34.68,33.354,48.96,43.76c14.277,10.4,26.215,18.053,35.803,22.949    c9.588,4.896,16.932,7.854,22.031,8.871l7.648,1.531c0.816,0,2.145-0.307,3.979-0.918c1.836-0.613,3.162-1.326,3.979-2.143    l34.883-35.496c7.348-6.527,15.912-9.791,25.705-9.791c6.938,0,12.443,1.223,16.523,3.672h0.611l118.115,69.768    C571.098,441.238,576.197,447.968,577.83,456.128z"
+									 fill="#FFFFFF" />
+								</g>
+							</svg>
+							<span>+375(29) 804-53-86</span>
+						</a>
+						<a href="mailto:din.masters.by@gmail.com" class="footer-link">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+							 y="0px" viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve" width="512px" height="512px">
+								<g>
+									<path d="M7,9L5.268,7.484l-4.952,4.245C0.496,11.896,0.739,12,1.007,12h11.986    c0.267,0,0.509-0.104,0.688-0.271L8.732,7.484L7,9z"
+									 fill="#f7f7f7" />
+									<path d="M13.684,2.271C13.504,2.103,13.262,2,12.993,2H1.007C0.74,2,0.498,2.104,0.318,2.273L7,8    L13.684,2.271z"
+									 fill="#f7f7f7" />
+									<polygon points="0,2.878 0,11.186 4.833,7.079   " fill="#f7f7f7" />
+									<polygon points="9.167,7.079 14,11.186 14,2.875   " fill="#f7f7f7" />
+								</g>
+							</svg>
+							<span>din.masters.by@gmail.com</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- modal form -->
+	<div class="modal modal-form-section">
+		<div class="modal-overlay modal-close"></div>
+		<div class="modal-form-wrapper">
+			<div class="modal-form-content">
+				<span class="modal-form-close modal-close">✖</span>
+				<h3>Заполните форму</h3>
+				<form class="form modal-form" id="modal-form">
+					<input type="hidden" name="subject" id="modal-fom-subject">
+					<input type="text" name="name" class="form-input modal-form-input" placeholder="Ваше имя">
+					<input type="text" name="tel" class="form-input modal-form-input" placeholder="Номер телефона" required>
+					<button class="btn modal-form-btn" form="modal-form" id="modal-form-btn" type="submit">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- modal thanks -->
+	<div class="modal modal-thanks-section">
+		<div class="modal-overlay modal-close"></div>
+		<div class="modal-thanks-wrapper">
+			<div class="modal-thanks-content">
+				<span class="modal-form-close modal-close">✖</span>
+				<h3>Спасибо за заявку!</h3>
+				<p>Мы свяжемся с вами в ближайшее время</p>
+			</div>
+		</div>
+	</div>
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
